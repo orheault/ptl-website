@@ -6,18 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>PTL Website</title>
-
-    <!-- Fonts -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet"> -->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link rel="stylesheet" href="/app.css">
-<!-- 
-	<script defer="" referrerpolicy="origin"
-		src="s.js"></script>
-	<script
-		nonce="e6e4a7c7-e11f-4e30-ba7d-feb9dc2cf415">(function (w, d) { !function (a, e, t, r) { a.zarazData = a.zarazData || {}, a.zarazData.executed = [], a.zaraz = { deferred: [] }, a.zaraz.q = [], a.zaraz._f = function (e) { return function () { var t = Array.prototype.slice.call(arguments); a.zaraz.q.push({ m: e, a: t }) } }; for (const e of ["track", "set", "ecommerce", "debug"]) a.zaraz[e] = a.zaraz._f(e); a.addEventListener("DOMContentLoaded", (() => { var t = e.getElementsByTagName(r)[0], z = e.createElement(r), n = e.getElementsByTagName("title")[0]; for (n && (a.zarazData.t = e.getElementsByTagName("title")[0].text), a.zarazData.x = Math.random(), a.zarazData.w = a.screen.width, a.zarazData.h = a.screen.height, a.zarazData.j = a.innerHeight, a.zarazData.e = a.innerWidth, a.zarazData.l = a.location.href, a.zarazData.r = e.referrer, a.zarazData.k = a.screen.colorDepth, a.zarazData.n = e.characterSet, a.zarazData.o = (new Date).getTimezoneOffset(), a.zarazData.q = []; a.zaraz.q.length;) { const e = a.zaraz.q.shift(); a.zarazData.q.push(e) } z.defer = !0; for (const e of [localStorage, sessionStorage]) Object.keys(e).filter((a => a.startsWith("_zaraz_"))).forEach((t => { try { a.zarazData["z_" + t.slice(7)] = JSON.parse(e.getItem(t)) } catch { a.zarazData["z_" + t.slice(7)] = e.getItem(t) } })); z.referrerPolicy = "origin", z.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(a.zarazData))), t.parentNode.insertBefore(z, t) })) }(w, d, 0, "script"); })(window, document);</script> -->
-
 
 </head>
 <!-- <body class="antialiased">
@@ -139,21 +132,17 @@
         </div>
         <div class="site-mobile-menu-body">
             <ul class="site-nav-wrap">
-                <li><a href="#home-section" class="nav-link active">Accueil</a>
-                </li>
-                <li><a href="#benefice-section" class="nav-link">Bénéfices</a>
-                </li>
-                <li><a href="#cas-usage-section" class="nav-link">Cas d'usage</a>
-                </li>
-                <li><a href="#clients-section" class="nav-link">Solutions</a>
-                </li>
+                <li><a href="#home-section" class="nav-link active">Accueil</a></li>
+                <li><a href="#cas-usage-section" class="nav-link">Cas d'usage</a></li>
+                <li><a href="#solution-section" class="nav-link">Solutions</a></li>
+                <li><a href="#benefice-section" class="nav-link">Bénéfices</a></li>
                 <li><a href="#about-section" class="nav-link">L'équipe</a></li>
             </ul>
             <ul class="site-nav-wrap">
                 <li>
                     <!-- <a href="#contact-section" class="nav-link">Nous joindre -->
                     <div class="col-lg-5 ml-auto aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                        <a href="https://preview.colorlib.com/theme/pageone/#contact-section" class="btn btn-primary me-4">Get In Touch</a>
+                        <a href="#contact-section" class="btn btn-primary me-4">Nous Joindre</a>
                     </div>
                     </a>
                 </li>
@@ -164,15 +153,14 @@
         <div class="container site-navigation">
             <div class="row">
                 <div class="col-6 col-md-2 col-lg-2">
-                    <a href="https://preview.colorlib.com/theme/pageone/index.html" class="logo m-0 float-start">PTL System<span class="text-primary">.</span></a>
+                    <a href="#home-section" class="logo m-0 float-start">PTL System<span class="text-primary">.</span></a>
                 </div>
                 <div class="col-md-8 d-none d-md-block col-lg-8 text-center">
                     <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu p-0 m-0 ">
                         <li><a href="#home-section" class="nav-link active">Accueil</a></li>
-                        <li><a href="#benefice-section" class="nav-link">Bénéfices</a>
-                        </li>
                         <li><a href="#cas-usage-section" class="nav-link">Cas d'usage</a></li>
-                        <li><a href="#clients-section" class="nav-link">Solutions</a></li>
+                        <li><a href="#solution-section" class="nav-link">Solutions</a></li>
+                        <li><a href="#benefice-section" class="nav-link">Bénéfices</a></li>
                         <li><a href="#about-section" class="nav-link">L'équipe</a></li>
                     </ul>
                 </div>
@@ -185,7 +173,7 @@
                             </div>
                         </li>
                     </ul>
-                    <a href="https://preview.colorlib.com/theme/pageone/#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
+                    <a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
                         <span></span>
                     </a>
                 </div>
@@ -210,7 +198,7 @@
 				<div class="col-lg-5 ms-auto">
 					<div class="row">
 						<div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                        <a href="https://preview.colorlib.com/theme/pageone/#" class="thumb mb-3">
+                        <a href="#" class="thumb mb-3">
 
                         <img src="images/lightningpick_pick-to-light_piece_picking.jpg"
 							alt="Image" data-pagespeed-url-hash="1811422933"
@@ -223,26 +211,49 @@
 			</div>
 		</div>
 	</div>
-    <div class="section bg-light" id="benefice-section">
-        <div class="container">
-            <div class="row mb-5 ">
+    <div class="section bg-light" id="cas-usage-section">
+        
+    <div class="container">
+            <div class="row mb-5">
                 <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
                     <div class="heading-wrap">
-                        <h2 class="heading">Bénéfices</h2>
+                        <h2 class="heading ">Cas D'usage</h2>
                     </div>
                 </div>
                 <div class="col-lg-5 ml-auto aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                    <p class="mb-4"><strong class="text-black">Separated they live in Bookmarksgrove</strong> right at
-                        the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far
-                        from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p><a href="https://preview.colorlib.com/theme/pageone/#contact-section" class="btn btn-primary me-4">Get In Touch</a></p>
+                    <p class="mb-4"><strong class="text-black">Mettre</strong> du texte ...</p>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="step active aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <span class="number">01</span>
+                        <h3>Cas usage 1</h3>
+                        <p class="mb-3">Texte explicatif.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="section section-3" id="solution-section">
+    <div class="container">
+            <div class="row mb-5 ">
+                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                    <div class="heading-wrap">
+                        <h2 class="heading">Solutions</h2>
+                    </div>
+                </div>
+                <div class="col-lg-5 ml-auto aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <p class="mb-4"><strong class="text-black">Solution CLÉ en main</strong> bla bla bla ...</p>
+                    <p><a href="#contact-section" class="btn btn-primary me-4">NOUS JOINDRE</a></p>
                 </div>
             </div>
             <div class="row justify-content-center g-5">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                     <div class="service aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                        <a href="https://preview.colorlib.com/theme/pageone/images/img_1.jpg" class="glightbox d-block mb-4 thumb">
-                            <script data-pagespeed-no-defer="">
+                        <a href="#" class="glightbox d-block mb-4 thumb">
+                            <!-- <script data-pagespeed-no-defer="">
                                 //<![CDATA[
                                 (function() {
                                     for (var g = "function" == typeof Object.defineProperties ? Object.defineProperty : function(b, c, a) {
@@ -409,191 +420,62 @@
                                 pagespeed.CriticalImages.Run('/mod_pagespeed_beacon', '', '-ilGEe-FWC', true, false, 'b6_1UhH2ezM');
                                 //]]>
                                 // 
-                            </script>
+                            </script> -->
                             <!-- <img src="./Pageone — Free Bootstrap 5 Website Template by Colorlib_files/ximg_1.jpg.pagespeed.ic.4tvbU5MAj5.webp" alt="Image" class="img-fluid" data-pagespeed-url-hash="3056568080" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"> -->
                         </a>
                         <div class="">
-                            <h3 class="mb-3"><a href="https://preview.colorlib.com/theme/pageone/#">Graphic Design</a>
+                            <h3 class="mb-3"><a href="#">Intégration Matériel</a>
                             </h3>
-                            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
-                                language ocean. Far far away, behind the word mountains, far from the countries Vokalia
-                                and Consonantia, there live the blind texts.</p>
+                            <p>Paragraphe de texte.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                     <div class="service aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                        <!-- <a href="https://preview.colorlib.com/theme/pageone/images/img_2.jpg" class="glightbox d-block mb-4 thumb"><img src="./Pageone — Free Bootstrap 5 Website Template by Colorlib_files/ximg_2.jpg.pagespeed.ic.yMZ53wnSqg.webp" alt="Image" class="img-fluid" data-pagespeed-url-hash="3351068001" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a> -->
+                        <a href="https://preview.colorlib.com/theme/pageone/images/img_2.jpg" class="glightbox d-block mb-4 thumb">
+                            <!--<img src="./Pageone — Free Bootstrap 5 Website Template by Colorlib_files/ximg_2.jpg.pagespeed.ic.yMZ53wnSqg.webp" alt="Image" class="img-fluid" data-pagespeed-url-hash="3351068001" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">--> 
+                        </a>
                         <div class="">
-                            <h3 class="mb-3"><a href="https://preview.colorlib.com/theme/pageone/#">Web Development</a>
+                            <h3 class="mb-3"><a href="#">Développement logiciel</a>
                             </h3>
-                            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
-                                language ocean. Far far away, behind the word mountains, far from the countries Vokalia
-                                and Consonantia, there live the blind texts.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
-                    <div class="service aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                        <!-- <a href="https://preview.colorlib.com/theme/pageone/images/img_3.jpg" class="glightbox d-block mb-4 thumb"><img src="./Pageone — Free Bootstrap 5 Website Template by Colorlib_files/ximg_3.jpg.pagespeed.ic.5-py9_Gm9i.webp" alt="Image" class="img-fluid" data-pagespeed-url-hash="3645567922" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a> -->
-                        <div class="">
-                            <h3 class="mb-3"><a href="https://preview.colorlib.com/theme/pageone/#">Branding</a></h3>
-                            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
-                                language ocean. Far far away, behind the word mountains, far from the countries Vokalia
-                                and Consonantia, there live the blind texts.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
-                    <div class="service aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                        <!-- <a href="https://preview.colorlib.com/theme/pageone/images/img_4.jpg" class="glightbox d-block mb-4 thumb"><img src="./Pageone — Free Bootstrap 5 Website Template by Colorlib_files/ximg_4.jpg.pagespeed.ic.xitJiC5SVk.webp" alt="Image" class="img-fluid" data-pagespeed-url-hash="3940067843" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a> -->
-                        <div class="">
-                            <h3 class="mb-3"><a href="https://preview.colorlib.com/theme/pageone/#">Iconography</a></h3>
-                            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
-                                language ocean. Far far away, behind the word mountains, far from the countries Vokalia
-                                and Consonantia, there live the blind texts.</p>
+                            <p>Paragraphe de texte.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="section section-3" id="cas-usage-section">
+    <div class="section section-4" id="benefice-section">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
                     <div class="heading-wrap">
-                        <h2 class="heading ">Cas D'usage</h2>
+                        <h2 class="heading text-white">Bénéfices</h2>
                     </div>
                 </div>
                 <div class="col-lg-5 ml-auto aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                    <p class="mb-4"><strong class="text-black">Separated they live in Bookmarksgrove</strong> right at
-                        the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far
-                        from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p><a href="https://preview.colorlib.com/theme/pageone/#" class="btn btn-primary me-4">Learn
-                            More</a> <a href="https://preview.colorlib.com/theme/pageone/#" class="link-muted">Scroll
-                            down</a></p>
-                </div>
-            </div>
-            <div class="row g-5">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="step active aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                        <span class="number">01</span>
-                        <h3>Information Gathering</h3>
-                        <p class="mb-3">Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="step aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                        <span class="number">02</span>
-                        <h3>Planning</h3>
-                        <p class="mb-3">Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="step aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-                        <span class="number">03</span>
-                        <h3>Design</h3>
-                        <p class="mb-3">Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="step aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                        <span class="number">04</span>
-                        <h3>Development</h3>
-                        <p class="mb-3">Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="step aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                        <span class="number">05</span>
-                        <h3>Testing and Delivery</h3>
-                        <p class="mb-3">Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="step aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-                        <span class="number">06</span>
-                        <h3>Maintenance</h3>
-                        <p class="mb-3">Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section section-4" id="clients-section">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
-                    <div class="heading-wrap">
-                        <h2 class="heading text-white">Solutions</h2>
-                    </div>
-                </div>
-                <div class="col-lg-5 ml-auto aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                    <p class="mb-4 desc"><strong class="text-black">Separated they live in Bookmarksgrove</strong> right
-                        at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains,
-                        far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="mb-4 desc"><strong class="text-black">Court</strong> texte résumant les bénéfices.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
                     <div class="client active">
                         <!-- <img src="./Pageone — Free Bootstrap 5 Website Template by Colorlib_files/xlogo-goldline.png.pagespeed.ic.40nSQphVgJ.webp" alt="Image" data-pagespeed-url-hash="1811422933" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"> -->
-                        <h3>Goldline</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts.</p>
+                        <h3>Bénéfices</h3>
+                        <p>Texte explicant bénéfice.</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
                     <div class="client">
                         <!-- <img src="./Pageone — Free Bootstrap 5 Website Template by Colorlib_files/xlogo-foxhub.png.pagespeed.ic.m_RIIjdghM.webp" alt="Image" data-pagespeed-url-hash="3324223159" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"> -->
-                        <h3>Foxhub</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                    <div class="client">
-                        <!-- <img src="./Pageone — Free Bootstrap 5 Website Template by Colorlib_files/xlogo-ideaa.png.pagespeed.ic.dcrk4QzNLC.webp" alt="Image" data-pagespeed-url-hash="4071894031" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"> -->
-                        <h3>Ideaa</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                    <div class="client">
-                        <!-- <img src="./Pageone — Free Bootstrap 5 Website Template by Colorlib_files/xlogo-nirastate.png.pagespeed.ic.PYMusK9IB_.webp" alt="Image" data-pagespeed-url-hash="1448915608" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"> -->
-                        <h3>Nirastate</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                    <div class="client">
-                        <!-- <img src="./Pageone — Free Bootstrap 5 Website Template by Colorlib_files/xlogo-treva.png.pagespeed.ic.djPyQqXp3h.webp" alt="Image" data-pagespeed-url-hash="803003139" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"> -->
-                        <h3>Treva</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                    <div class="client">
-                        <!-- <img src="./Pageone — Free Bootstrap 5 Website Template by Colorlib_files/xlogo-goldline.png.pagespeed.ic.40nSQphVgJ.webp" alt="Image" data-pagespeed-url-hash="1811422933" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"> -->
-                        <h3>Goldline</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts.</p>
+                        <h3>Bénéfices</h3>
+                        <p>Texte explicant bénéfice.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="section section-6" id="about-section">
+    <div class="section section-6 section bg-light" id="about-section">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
@@ -602,42 +484,36 @@
                     </div>
                 </div>
                 <div class="col-lg-5 ml-auto aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                    <p class="mb-4 desc"><strong class="text-black">L'équipe est composé de ...</strong> bla bla bla right
-                        at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains,
-                        far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="mb-4 desc"><strong class="text-black">L'équipe est composé de ...</strong> bla bla bla right</p>
                 </div>
             </div>
             <div class="row g-5 justify-content-center">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
                     <div class="team">
-                        <a href="https://preview.colorlib.com/theme/pageone/#" class="thumb mb-3"><img src="images/keven-devant-color.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2854580370" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
-                        <h3><a href="https://preview.colorlib.com/theme/pageone/#">Kéven Bernier Côté</a></h3>
-                        <span class="mb-4 text-black-50 d-block">Partenaire</span>
-                        <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the
-                            coast of the Semantics, a large language ocean.</p>
+                        <a href="#about-section" class="thumb mb-3"><img src="images/keven-devant-color.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="2854580370" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                        <h3><a href="#">Kéven Bernier Côté</a></h3>
+                        <span class="mb-4 text-black-50 d-block">Partenaire, spécialiste logistique</span>
+                        <p class="mb-4">Court texte expliquant notre rôle dans la compagnie.</p>
                         <ul class="list-unstyled social">
-                            <li><a href="https://preview.colorlib.com/theme/pageone/#"><span class="icon-linkedin"></span></a></li>
+                            <li><a href="#"><span class="icon-linkedin"></span></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
                     <div class="team">
-                        <a href="https://preview.colorlib.com/theme/pageone/#" class="thumb mb-3"><img src="images/olivier-devant-noir.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3149080291" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
-                        <h3><a href="https://preview.colorlib.com/theme/pageone/#">Olivier Rheault Gagnon</a></h3>
-                        <span class="mb-4 text-black-50 d-block">Partenaire</span>
-                        <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the
-                            coast of the Semantics, a large language ocean.</p>
+                        <a href="#about-section" class="thumb mb-3"><img src="images/olivier-devant-noir.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3149080291" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                        <h3><a href="#">Olivier Rheault Gagnon</a></h3>
+                        <span class="mb-4 text-black-50 d-block">Partenaire, spécialiste logiciel</span>
+                        <p class="mb-4">Court texte expliquant notre rôle dans la compagnie.</p>
                         <ul class="list-unstyled social">
-                            <li><a href="https://preview.colorlib.com/theme/pageone/#"><span class="icon-linkedin"></span></a></li>
+                            <li><a href="#"><span class="icon-linkedin"></span></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container py-5" id="contact-section">
+    <div class="container py-5 " id="contact-section">
         <div class="row mb-5">
             <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
                 <div class="heading-wrap">
@@ -651,103 +527,55 @@
                     <div class="row">
                         <div class="col-6">
                             <div class="mb-3">
-                                <label class="text-black" for="fname">First name</label>
+                                <label class="text-black" for="fname">Prénom</label>
                                 <input type="text" class="form-control" id="fname">
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="mb-3">
-                                <label class="text-black" for="lname">Last name</label>
+                                <label class="text-black" for="lname">Nom</label>
                                 <input type="text" class="form-control" id="lname">
                             </div>
                         </div>
                     </div>
                     <div class="mb-3">
-                        <label class="text-black" for="email">Email address</label>
+                        <label class="text-black" for="phone-number">Numéro de téléphone</label>
+                        <input type="text" class="form-control" id="phone-number">
+                    </div>
+                    <div class="mb-3">
+                        <label class="text-black" for="email">Adresse courriel</label>
                         <input type="email" class="form-control" id="email">
                     </div>
                     <div class="mb-3">
                         <label class="text-black" for="message">Message</label>
                         <textarea name="" class="form-control" id="message" cols="30" rows="5"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
                 </form>
             </div>
             <div class="col-lg-5 ml-auto aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
                 <div class="quick-contact-item d-flex align-items-center mb-4">
                     <span class="icon-home"></span>
                     <address class="text">
-                        155 Market St #101, Paterson, NJ 07505, United States
+                        Drummondville, Canada
                     </address>
                 </div>
                 <div class="quick-contact-item d-flex align-items-center mb-4">
                     <span class="icon-phone"></span>
                     <address class="text">
-                        +1 202 2020 200
+                        +1 (819) 740-7436
                     </address>
                 </div>
                 <div class="quick-contact-item d-flex align-items-center mb-4">
                     <span class="icon-envelope"></span>
                     <address class="text">
-                        @info@mydomain.com
+                        info@ptl-system.com
                     </address>
                 </div>
             </div>
         </div>
     </div>
     <div class="site-footer">
-        <div class="inner first">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="widget">
-                            <h3 class="heading">About</h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                                there live the blind texts.</p>
-                        </div>
-                        <div class="widget">
-                            <ul class="list-unstyled social">
-                                <li><a href="https://preview.colorlib.com/theme/pageone/#"><span class="icon-twitter"></span></a></li>
-                                <li><a href="https://preview.colorlib.com/theme/pageone/#"><span class="icon-instagram"></span></a></li>
-                                <li><a href="https://preview.colorlib.com/theme/pageone/#"><span class="icon-facebook"></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-2 pl-lg-5">
-                        <div class="widget">
-                            <h3 class="heading">Pages</h3>
-                            <ul class="links list-unstyled">
-                                <li><a href="https://preview.colorlib.com/theme/pageone/#">Blog</a></li>
-                                <li><a href="https://preview.colorlib.com/theme/pageone/#">About</a></li>
-                                <li><a href="https://preview.colorlib.com/theme/pageone/#">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-2">
-                        <div class="widget">
-                            <h3 class="heading">Resources</h3>
-                            <ul class="links list-unstyled">
-                                <li><a href="https://preview.colorlib.com/theme/pageone/#">Blog</a></li>
-                                <li><a href="https://preview.colorlib.com/theme/pageone/#">About</a></li>
-                                <li><a href="https://preview.colorlib.com/theme/pageone/#">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="widget">
-                            <h3 class="heading">Contact</h3>
-                            <ul class="list-unstyled quick-info links">
-                                <li class="email"><a href="https://preview.colorlib.com/theme/pageone/#">info@untree.co</a></li>
-                                <li class="phone"><a href="https://preview.colorlib.com/theme/pageone/#">+1 222 212
-                                        3819</a></li>
-                                <li class="address"><a href="https://preview.colorlib.com/theme/pageone/#">43 Raymouth
-                                        Rd. Baltemoer, London 3910</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="inner dark">
             <div class="container">
                 <div class="row text-center text-md-start">
@@ -755,13 +583,8 @@
                         <p>Copyright ©
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script>2022 All rights reserved | This
-                            template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank" rel="nofollow noopener">Colorlib</a>
+                            </script> Tout droit réservé 
                         </p>
-                    </div>
-                    <div class="col-md-6 text-md-end">
-                        <a href="#" class="mx-2">Terms</a>
-                        <a href="#" class="mx-2">Privacy</a>
                     </div>
                 </div>
             </div>
