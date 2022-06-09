@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::controller(HomeController::class)->group(function(){
     Route::get('/', 'show');
-    Route::post('/message', 'message');
+    Route::post('/contact-form', 'contactForm');
 });

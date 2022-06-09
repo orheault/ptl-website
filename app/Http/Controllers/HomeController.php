@@ -13,7 +13,14 @@ class HomeController extends Controller
         return view('welcome');
     }
 
-    public function message(Request $request){
+    public function contactForm(Request $request){
+        $request->validate([
+             'firstName' => 'required',
+             'lastName' => 'required',
+             'email' => 'required',
+             'message' => 'required'
+        ]);
+        
         $lastName = $request->input('lastName');
         Log::debug($lastName);
         // todo: send a notification that a customer wants information to info@ptl-system.com
