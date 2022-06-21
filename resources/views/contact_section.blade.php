@@ -94,6 +94,8 @@
 
             $('#contact-form').on('submit', function(event) {
                 event.preventDefault();
+                $( "#sendButton" ).prop( "disabled", true );
+
                 $('#firstName-error').text('');
                 $('#lastName-error').text('');
                 $('#message-error').text('');
@@ -103,6 +105,7 @@
                 var lastName = $('#lastName').val();
                 var message = $('#message').val();
                 var email = $('#email').val();
+                var phoneNumber = $('#phoneNumber').val();
 
                 $.ajax({
                     url: "/contact-form",
@@ -112,13 +115,15 @@
                         lastName: lastName,
                         message: message,
                         email: email,
+                        phoneNumber: phoneNumber,
                     },
                     success: function(response) {
                         console.log(response);
                         if (response) {
                             $("#contact-form")[0].reset();
                             $("#messageText").text(response.message);
-
+                            $( "#sendButton" ).prop( "disabled", false );
+                            
                             var myModal = new bootstrap.Modal(document.getElementById(
                                 'confirmationModal'));
                             myModal.show();
@@ -127,6 +132,7 @@
                     error: function(response) {
                         console.log("error reponse:");
                         console.log(response);
+                        $( "#sendButton" ).prop( "disabled", false );
                         $('#firstName-error').text(response.responseJSON.errors.firstName);
                         $('#lastName-error').text(response.responseJSON.errors.lastName);
                         $('#message-error').text(response.responseJSON.errors.message);

@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/app.css">
 
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
 
 </head>
@@ -292,7 +292,7 @@
     <script>
         eval(mod_pagespeed_$T15uOl4gQ);
     </script>
-    <script>
+     <script>
         eval(mod_pagespeed_TqKI1qGJDk);
     </script>
     <script>
@@ -307,12 +307,6 @@
     <script>
         eval(mod_pagespeed_iktGhcoLEk);
     </script>
-
-    <script defer="" src="scripts/v652eace1692a40cfa3763df669d7439c1639079717194.js"
-        integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
-        data-cf-beacon="{&quot;rayId&quot;:&quot;7122c5b55cce4bd0&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2021.12.0&quot;,&quot;si&quot;:100}"
-        crossorigin="anonymous"></script>
-
 </body>
 
 </html>

@@ -3,6 +3,8 @@
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
+URL::forceScheme('https');  //at the top of the file
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes

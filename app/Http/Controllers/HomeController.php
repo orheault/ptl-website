@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 
@@ -18,13 +19,30 @@ class HomeController extends Controller
              'firstName' => 'required',
              'lastName' => 'required',
              'email' => 'required',
-             'message' => 'required'
+             'message' => 'required',
         ]);
         
-        $lastName = $request->input('lastName');
-        Log::debug($lastName);
-        // todo: send a notification that a customer wants information to info@ptl-system.com
-        
+        $firstName = $request->post('firstName');
+        $lastName = $request->post('lastName');
+        $phoneNumber = $request->post('phoneNumber');
+        $email =  $request->post('email');
+        $formMessage =  $request->post('message');
+
+        $to_name = 'info@ptl-system.com';
+        $to_email = 'info@ptl-system.com';
+        $data = array(
+            'firstname'=> $firstName,
+            'lastname' => $lastName,
+            'phonenumber' => $phoneNumber,
+            'email' => $email,
+            'formMessage' => $formMessage
+        );
+
+        Mail::send('emails.mail', $data, function($message) use ($to_name, $to_email) {
+            $message->to($to_email, $to_name)->subject('Formulaire contact');
+            $message->from('robot@ptl-system.com', 'Mail System');
+        });
+
         return response()->json(['message' => 'Votre message à bien été envoyé. Nous allons vous contacter sous peu.']);
     }
 }
