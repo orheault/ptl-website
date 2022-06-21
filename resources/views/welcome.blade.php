@@ -6,41 +6,23 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>PTL Website</title>
+    <title>PTL System</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/app.css">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#site-navbar-target" data-bs-offset="100" data-aos-easing="slide"
-    data-aos-duration="800" data-aos-delay="0">
+<body data-bs-spy="scroll" data-bs-target="#site-navbar-target" data-bs-offset="100">
     <div class="site-mobile-menu site-navbar-target">
         <div class="site-mobile-menu-header">
             <div class="site-mobile-menu-close">
                 <span class="icofont-close js-menu-toggle"></span>
             </div>
         </div>
-        <div class="site-mobile-menu-body">
-            <ul class="site-nav-wrap">
-                <li><a href="#home-section" class="nav-link active">Accueil</a></li>
-                <li><a href="#cas-usage-section" class="nav-link">Cas d'usage</a></li>
-                <li><a href="#solution-section" class="nav-link">Solutions</a></li>
-                <li><a href="#benefice-section" class="nav-link">Bénéfices</a></li>
-                <li><a href="#about-section" class="nav-link">L'équipe</a></li>
-            </ul>
-            <ul class="site-nav-wrap">
-                <li>
-                    <!-- <a href="#contact-section" class="nav-link">Nous joindre -->
-                    <div class="col-lg-5 ml-auto aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                        <a href="#contact-section" class="btn btn-primary me-4">Nous Joindre</a>
-                    </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <div class="site-mobile-menu-body"></div>
     </div>
     <nav class="site-nav js-site-navbar site-navbar-target" id="site-navbar-target">
         <div class="container site-navigation">
@@ -61,8 +43,7 @@
                 <div class="col-6 col-md-2 col-lg-2">
                     <ul class="js-clone-nav d-none d-lg-inline-block text-end float-end site-menu p-0 m-0 ">
                         <li>
-                            <!-- <a href="#contact-section" class="nav-link">Nous joindre -->
-                            <div class="col-lg-10 ml-auto aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                            <div class="col-lg-10 ml-auto " data-aos="fade-up" data-aos-delay="100">
                                 <a href="#contact-section" class="btn btn-primary me-4">Nous Joindre</a>
                             </div>
                         </li>
@@ -80,8 +61,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mx-auto">
-                    <h1 class="heading aos-init aos-animate" data-aos="fade-up">Nous installons des systèmes Pick To
-                        Light</h1>
+                    <h1 class="heading" data-aos="fade-up">Nous installons des systèmes Pick To Light</h1>
                 </div>
             </div>
         </div>
@@ -89,19 +69,16 @@
     <div class="section pt-0 section-1">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-lg-4 ml-auto aos-init aos-animate" data-aos="fade-up">
+                <div class="col-lg-4 ml-auto " data-aos="fade-up">
                     <p><strong class="text-black">Pick to light</strong> est une technologie d'exécution des
                         commandes qui utilise des affichages alphanumériques et des boutons aux emplacements de stockage
                         pour guider la « cueillette » manuelle et l'enregistrement des articles à expédier.</p>
                 </div>
                 <div class="col-lg-5 ms-auto">
                     <div class="row">
-                        <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
                             <a href="#" class="thumb mb-3">
-
-                                <img src="images/lightningpick_pick-to-light_piece_picking.jpg" alt="Image"
-                                    data-pagespeed-url-hash="1811422933" style="opacity: 0.5"
-                                    onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                <img src="images/lightningpick_pick-to-light_piece_picking.jpg" alt="Image" style="opacity: 0.5">
                             </a>
                         </div>
                     </div>
@@ -113,18 +90,18 @@
 
         <div class="container">
             <div class="row mb-5">
-                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="0">
                     <div class="heading-wrap">
                         <h2 class="heading ">Cas D'usage</h2>
                     </div>
                 </div>
-                <div class="col-lg-5 ml-auto aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-5 ml-auto " data-aos="fade-up" data-aos-delay="100">
                     <p class="mb-4"><strong class="text-black">Mettre</strong> du texte ...</p>
                 </div>
             </div>
             <div class="row g-5">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="step active aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step active " data-aos="fade-up" data-aos-delay="100">
                         <span class="number">01</span>
                         <h3>Cas usage 1</h3>
                         <p class="mb-3">Texte explicatif.</p>
@@ -137,12 +114,12 @@
     <div class="section section-3" id="solution-section">
         <div class="container">
             <div class="row mb-5 ">
-                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="0">
                     <div class="heading-wrap">
                         <h2 class="heading">Solutions</h2>
                     </div>
                 </div>
-                <div class="col-lg-5 ml-auto aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-5 ml-auto " data-aos="fade-up" data-aos-delay="100">
                     <p class="mb-4"><strong class="text-black">Solution CLÉ en main</strong> bla bla bla
                         ...</p>
                     <p><a href="#contact-section" class="btn btn-primary me-4">NOUS JOINDRE</a></p>
@@ -150,9 +127,9 @@
             </div>
             <div class="row justify-content-center g-5">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
-                    <div class="service aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service " data-aos="fade-up" data-aos-delay="100">
                         <a href="#" class="glightbox d-block mb-4 thumb">
-                               <!-- <img src="./Pageone — Free Bootstrap 5 Website Template by Colorlib_files/ximg_1.jpg.pagespeed.ic.4tvbU5MAj5.webp" alt="Image" class="img-fluid" data-pagespeed-url-hash="3056568080" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"> -->
+                            <!-- <img src="./" alt="Image" class="img-fluid"> -->
                         </a>
                         <div class="">
                             <h3 class="mb-3"><a href="#">Intégration Matériel</a>
@@ -162,22 +139,19 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
-                    <div class="service aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                        <a href="https://preview.colorlib.com/theme/pageone/images/img_2.jpg"
-                            class="glightbox d-block mb-4 thumb">
-                            <img src="images/integration logiciel.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3351068001">
+                    <div class="service " data-aos="fade-up" data-aos-delay="200">
+                        <a class="glightbox d-block mb-4 thumb">
+                            <img src="images/integration logiciel.jpg" alt="Image" class="img-fluid">
                         </a>
-                        <div class="">
-                            <h3 class="mb-3"><a href="#">Développement logiciel</a>
-                            </h3>
+                        <div>
+                            <h3 class="mb-3"><a href="#">Développement logiciel</a></h3>
                             <p>Paragraphe de texte.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                    <div class="col-12 " data-aos="fade-up" data-aos-delay="0">
                         <h2 class="heading mb-2 fw-bold">Fonctionnement</h2>
-                        
                     </div>
                 </div>
             </div>
@@ -186,27 +160,29 @@
     <div class="section section-4" id="benefice-section">
         <div class="container">
             <div class="row mb-5">
-                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="0">
                     <div class="heading-wrap">
                         <h2 class="heading text-white">Bénéfices</h2>
                     </div>
                 </div>
-                <div class="col-lg-5 ml-auto aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-5 ml-auto " data-aos="fade-up" data-aos-delay="100">
                     <p class="mb-4 desc"><strong class="text-black">Court</strong> texte résumant les
                         bénéfices.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-xs-12 col-sm-6 col-md-6 " data-aos="fade-up"
+                    data-aos-delay="100">
                     <div class="client active">
-                        <img src="images/percent productivity.png" alt="Image" data-pagespeed-url-hash="1811422933">
+                        <img src="images/percent productivity.png" alt="Image">
                         <h3>Augmentation Productivité</h3>
                         <p>Texte explicant bénéfice.</p>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-xs-12 col-sm-6 col-md-6 " data-aos="fade-up"
+                    data-aos-delay="200">
                     <div class="client">
-                        <!-- <img src="./Pageone — Free Bootstrap 5 Website Template by Colorlib_files/xlogo-foxhub.png.pagespeed.ic.m_RIIjdghM.webp" alt="Image" data-pagespeed-url-hash="3324223159" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"> -->
+                        <!-- <img src="./" alt="Image"> -->
                         <h3>Bénéfices</h3>
                         <p>Texte explicant bénéfice.</p>
                     </div>
@@ -217,23 +193,22 @@
     <div class="section section-6 section bg-light" id="about-section">
         <div class="container">
             <div class="row mb-5">
-                <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="0">
                     <div class="heading-wrap">
                         <h2 class="heading">Équipe</h2>
                     </div>
                 </div>
-                <div class="col-lg-5 ml-auto aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-5 ml-auto " data-aos="fade-up" data-aos-delay="100">
                     <p class="mb-4 desc"><strong class="text-black">L'équipe est composé de ...</strong> bla
                         bla bla right</p>
                 </div>
             </div>
             <div class="row g-5 justify-content-center">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 aos-init aos-animate" data-aos="fade-up"
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 " data-aos="fade-up"
                     data-aos-delay="0">
                     <div class="team">
                         <a href="#about-section" class="thumb mb-3"><img src="images/keven-devant-color.png"
-                                alt="Image" class="img-fluid" data-pagespeed-url-hash="2854580370"
-                                onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                alt="Image" class="img-fluid"></a>
                         <h3><a href="#">Kéven Bernier Côté</a></h3>
                         <span class="mb-4 text-black-50 d-block">Partenaire, spécialiste logistique</span>
                         <p class="mb-4">Court texte expliquant notre rôle dans la compagnie.</p>
@@ -242,12 +217,11 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 aos-init aos-animate" data-aos="fade-up"
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 " data-aos="fade-up"
                     data-aos-delay="200">
                     <div class="team">
                         <a href="#about-section" class="thumb mb-3"><img src="images/olivier-devant-noir.jpg"
-                                alt="Image" class="img-fluid" data-pagespeed-url-hash="3149080291"
-                                onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                alt="Image" class="img-fluid"></a>
                         <h3><a href="#">Olivier Rheault Gagnon</a></h3>
                         <span class="mb-4 text-black-50 d-block">Partenaire, spécialiste logiciel</span>
                         <p class="mb-4">Court texte expliquant notre rôle dans la compagnie.</p>
@@ -278,8 +252,8 @@
         </div>
     </div>
 
-    <div id="overlayer" style="opacity: -0.1; display: none;"></div>
-    <div class="loader" style="opacity: -0.1; display: none;">
+    <div id="overlayer"></div>
+    <div class="loader">
         <div class="spinner-border" role="status">
             <span class="visually-hidden">Chargement...</span>
         </div>
@@ -288,11 +262,11 @@
     <script src="scripts/tiny-slider.js"></script>
     <script src="scripts/aos.js+navbar.js+page-scroll.js+counter.js+glightbox.min.js+custom.js.pagespeed.jc.x5Q8-4F1U3.js">
     </script>
- 
+
     <script>
         eval(mod_pagespeed_$T15uOl4gQ);
     </script>
-     <script>
+    <script>
         eval(mod_pagespeed_TqKI1qGJDk);
     </script>
     <script>

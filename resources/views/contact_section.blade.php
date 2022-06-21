@@ -2,14 +2,14 @@
 
     <div class="container py-5 " id="contact-section">
         <div class="row mb-5">
-            <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="0">
                 <div class="heading-wrap">
                     <h2 class="heading">Nous Joindre</h2>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 mb-5 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-6 mb-5 mb-lg-0 " data-aos="fade-up" data-aos-delay="100">
                 <form class="contact-form needs-validation" id="contact-form">
                     <div class="row">
                         <div class="col-6">
@@ -44,7 +44,7 @@
                     <button class="btn btn-primary" id="sendButton">Envoyer</button>
                 </form>
             </div>
-            <div class="col-lg-5 ml-auto aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-5 ml-auto " data-aos="fade-up" data-aos-delay="200">
                 <div class="quick-contact-item d-flex align-items-center mb-4">
                     <span class="icon-home"></span>
                     <address class="text">
