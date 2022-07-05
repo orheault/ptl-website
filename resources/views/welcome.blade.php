@@ -13,6 +13,18 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0F6CZC1E3G"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0F6CZC1E3G');
+    </script>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#site-navbar-target" data-bs-offset="100">
@@ -155,7 +167,9 @@
                     </div>
                 </div>
                 <div class="col-lg-5 ml-auto " data-aos="fade-up" data-aos-delay="100">
-                    <p class="mb-4"><strong class="text-black">Solution CLÉ en main.</strong> Intégration d'un système de traitement de commande améliorant la cuillette de la quincaillerie. Cette intégration est adapté selon votre logiciel de gestion.</p>
+                    <p class="mb-4"><strong class="text-black">Solution CLÉ en main.</strong> Intégration d'un
+                        système de traitement de commande améliorant la cuillette de la quincaillerie. Cette intégration
+                        est adapté selon votre logiciel de gestion.</p>
                     <p><a href="#contact-section" class="btn btn-primary me-4">NOUS JOINDRE</a></p>
                 </div>
             </div>
@@ -169,11 +183,11 @@
                             <h3 class="mb-3"><a href="#">Analyse des besoins</a>
                             </h3>
                             <p>À prioris, une analyse des besoins est effectué, comprenant:
-                                <ul>
-                                    <li>Étude préliminaire de rentabilitée </li>
-                                    <li>Analyse des processus internes</li>
-                                    <li>Définition des besoins matériel et logiciel</li>
-                                </ul>
+                            <ul>
+                                <li>Étude préliminaire de rentabilitée </li>
+                                <li>Analyse des processus internes</li>
+                                <li>Définition des besoins matériel et logiciel</li>
+                            </ul>
                             </p>
                         </div>
                     </div>
@@ -215,13 +229,16 @@
                 <div class="row mb-5">
                     <div class="col-12" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="heading mb-2 fw-bold">Fonctionnement</h3>
-                        Voici le fonctionnement de façon général:	
+                        Voici le fonctionnement de façon général:
                         <ul>
-                            <li>L'opérateur scanne le code bar de la commande	 </li>
-                            <li>L'affichage des modules PTL sous chaque pièces de quincailleries nécessaires s'allument</li>
+                            <li>L'opérateur scanne le code bar de la commande </li>
+                            <li>L'affichage des modules PTL sous chaque pièces de quincailleries nécessaires s'allument
+                            </li>
                             <li>Chaque module PTL indique la quantité de pièces à récupérer</li>
-                            <li>L'opérateur prend chacune des pièces de quincallerie et confirme la cueillette en appuyant sur le bouton désigné</li>
-                            <li>Le système Pick to Light continue son fonctionnement jusqu'à la fin de la prise de commande</li>
+                            <li>L'opérateur prend chacune des pièces de quincallerie et confirme la cueillette en
+                                appuyant sur le bouton désigné</li>
+                            <li>Le système Pick to Light continue son fonctionnement jusqu'à la fin de la prise de
+                                commande</li>
                         </ul>
                     </div>
                 </div>
@@ -308,7 +325,8 @@
                         <h3><a href="#">Kéven Bernier Côté</a></h3>
                         <span class="mb-4 text-black-50 d-block">Spécialiste automatisation</span>
                         <ul class="list-unstyled social">
-                            <li><a href="https://www.linkedin.com/in/k%C3%A9ven-bernier-c%C3%B4t%C3%A9-a9a776115/"><span class="icon-linkedin"></span></a></li>
+                            <li><a href="https://www.linkedin.com/in/k%C3%A9ven-bernier-c%C3%B4t%C3%A9-a9a776115/"><span
+                                        class="icon-linkedin"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -319,7 +337,8 @@
                         <h3><a href="#">Olivier Rheault Gagnon</a></h3>
                         <span class="mb-4 text-black-50 d-block">Spécialiste logiciel</span>
                         <ul class="list-unstyled social">
-                            <li><a href="https://www.linkedin.com/in/org18/"><span class="icon-linkedin"></span></a></li>
+                            <li><a href="https://www.linkedin.com/in/org18/"><span class="icon-linkedin"></span></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
