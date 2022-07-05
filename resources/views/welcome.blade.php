@@ -26,10 +26,9 @@
     </div>
     <nav class="site-nav js-site-navbar site-navbar-target" id="site-navbar-target">
         <div class="container site-navigation">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-6 col-md-2 col-lg-2">
-                    <a href="#home-section" class="logo m-0 float-start">PTL System<span
-                            class="text-primary">.</span></a>
+                    <a href="#home-section"><img src="images/logo-resize.png" alt="Image" class="img-fluid"></a>
                 </div>
                 <div class="col-md-8 d-none d-md-block col-lg-8 text-center">
                     <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu p-0 m-0 ">
