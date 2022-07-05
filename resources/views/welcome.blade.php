@@ -70,15 +70,18 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-4 ml-auto " data-aos="fade-up">
-                    <p><strong class="text-black">Pick to light</strong> est une technologie d'exécution des
-                        commandes qui utilise des affichages alphanumériques et des boutons aux emplacements de stockage
-                        pour guider la « cueillette » manuelle et l'enregistrement des articles à expédier.</p>
+                    <p>
+                        PTL Sytem <strong class="text-black"> intègre</strong> une technologie d'exécution des
+                        commandes, <strong class="text-black">clé en main</strong> pour guider vos employés dans la
+                        cueillette, la mise en place, le tri et l'assemblage manuels.
+                    </p>
                 </div>
                 <div class="col-lg-5 ms-auto">
                     <div class="row">
                         <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
                             <a href="#" class="thumb mb-3">
-                                <img src="images/lightningpick_pick-to-light_piece_picking.jpg" alt="Image" style="opacity: 0.5">
+                                <img src="images/lightningpick_pick-to-light_piece_picking.jpg" alt="Image"
+                                    style="opacity: 0.5; width:350px">
                             </a>
                         </div>
                     </div>
@@ -87,7 +90,6 @@
         </div>
     </div>
     <div class="section bg-light" id="cas-usage-section">
-
         <div class="container">
             <div class="row mb-5">
                 <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="0">
@@ -96,20 +98,54 @@
                     </div>
                 </div>
                 <div class="col-lg-5 ml-auto " data-aos="fade-up" data-aos-delay="100">
-                    <p class="mb-4"><strong class="text-black">Mettre</strong> du texte ...</p>
+                    <p class="mb-4">Ce système se retrouve dans des processus variés</p>
                 </div>
             </div>
             <div class="row g-5">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="step active " data-aos="fade-up" data-aos-delay="100">
                         <span class="number">01</span>
-                        <h3>Cas usage 1</h3>
-                        <p class="mb-3">Texte explicatif.</p>
+                        <a href="#" class="glightbox d-block mb-4 thumb">
+                            {{-- <img src="images/lightningpick_pick-to-light_piece_picking.jpg" class="img-fluid" alt="Image" style="opacity: 0.5; width:350px"> --}}
+                        </a>
+                        <h3>kitting</h3>
+                        <p class="mb-3"></p>
                     </div>
                 </div>
-            </div>
-        </div>
 
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="step " data-aos="fade-up" data-aos-delay="100">
+                        <span class="number">01</span>
+                        <a href="#" class="glightbox d-block mb-4 thumb">
+                            {{-- <img src="images/lightningpick_pick-to-light_piece_picking.jpg" class="img-fluid" alt="Image" style="opacity: 0.5; width:350px"> --}}
+                        </a>
+                        <h3>la préparation de commandes</h3>
+                        <p class="mb-3"></p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="step " data-aos="fade-up" data-aos-delay="100">
+                        <span class="number">01</span>
+                        <a href="#" class="glightbox d-block mb-4 thumb">
+                            {{-- <img src="images/lightningpick_pick-to-light_piece_picking.jpg" class="img-fluid" alt="Image" style="opacity: 0.5; width:350px"> --}}
+                        </a>
+                        <h3>l’assemblage de produits </h3>
+                        <p class="mb-3"></p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                    <h3>Exemple d'industrie</h3>
+                    <ul>
+                        <li>Meuble</li>
+                        <li>Pharmaceutique</li>
+                        <li>Alimentaire</li>
+                        <li>Commerce en ligne</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
     </div>
     <div class="section section-3" id="solution-section">
         <div class="container">
@@ -120,8 +156,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 ml-auto " data-aos="fade-up" data-aos-delay="100">
-                    <p class="mb-4"><strong class="text-black">Solution CLÉ en main</strong> bla bla bla
-                        ...</p>
+                    <p class="mb-4"><strong class="text-black">Solution CLÉ en main.</strong> Intégration d'un système de traitement de commande améliorant la cuillette de la quincaillerie. Cette intégration est adapté selon votre logiciel de gestion.</p>
                     <p><a href="#contact-section" class="btn btn-primary me-4">NOUS JOINDRE</a></p>
                 </div>
             </div>
@@ -132,26 +167,63 @@
                             <!-- <img src="./" alt="Image" class="img-fluid"> -->
                         </a>
                         <div class="">
-                            <h3 class="mb-3"><a href="#">Intégration Matériel</a>
+                            <h3 class="mb-3"><a href="#">Analyse des besoins</a>
                             </h3>
-                            <p>Paragraphe de texte.</p>
+                            <p>À prioris, une analyse des besoins est effectué, comprenant:
+                                <ul>
+                                    <li>Étude préliminaire de rentabilitée </li>
+                                    <li>Analyse des processus internes</li>
+                                    <li>Définition des besoins matériel et logiciel</li>
+                                </ul>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                     <div class="service " data-aos="fade-up" data-aos-delay="200">
                         <a class="glightbox d-block mb-4 thumb">
-                            <img src="images/integration logiciel.jpg" alt="Image" class="img-fluid">
+                            {{-- <img src="images/integration logiciel.jpg" alt="Image" class="img-fluid"> --}}
                         </a>
                         <div>
-                            <h3 class="mb-3"><a href="#">Développement logiciel</a></h3>
-                            <p>Paragraphe de texte.</p>
+                            <h3 class="mb-3"><a href="#">Intégration Matériel</a></h3>
+                            <p>Nous installons tous le matériel nécessaire au système Pick to Light</p>
                         </div>
                     </div>
                 </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                    <div class="service " data-aos="fade-up" data-aos-delay="200">
+                        <a class="glightbox d-block mb-4 thumb">
+                            {{-- <img src="images/integration logiciel.jpg" alt="Image" class="img-fluid"> --}}
+                        </a>
+                        <div>
+                            <h3 class="mb-3"><a href="#">Intégration logiciel</a></h3>
+                            <p>Nous développons une intégration à votre logiciel de gestion</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                    <div class="service " data-aos="fade-up" data-aos-delay="200">
+                        <a class="glightbox d-block mb-4 thumb">
+                            {{-- <img src="images/integration logiciel.jpg" alt="Image" class="img-fluid"> --}}
+                        </a>
+                        <div>
+                            <h3 class="mb-3"><a href="#">Formation</a></h3>
+                            <p>Une formation est donnée afin de maîtriser le système</p>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row mb-5">
-                    <div class="col-12 " data-aos="fade-up" data-aos-delay="0">
-                        <h2 class="heading mb-2 fw-bold">Fonctionnement</h2>
+                    <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="heading mb-2 fw-bold">Fonctionnement</h3>
+                        Voici le fonctionnement de façon général:	
+                        <ul>
+                            <li>L'opérateur scanne le code bar de la commande	 </li>
+                            <li>L'affichage des modules PTL sous chaque pièces de quincailleries nécessaires s'allument</li>
+                            <li>Chaque module PTL indique la quantité de pièces à récupérer</li>
+                            <li>L'opérateur prend chacune des pièces de quincallerie et confirme la cueillette en appuyant sur le bouton désigné</li>
+                            <li>Le système Pick to Light continue son fonctionnement jusqu'à la fin de la prise de commande</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -166,25 +238,51 @@
                     </div>
                 </div>
                 <div class="col-lg-5 ml-auto " data-aos="fade-up" data-aos-delay="100">
-                    <p class="mb-4 desc"><strong class="text-black">Court</strong> texte résumant les
-                        bénéfices.</p>
+                    <p class="mb-4 desc"> Retour sur investissement en moins d'un an</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 " data-aos="fade-up"
-                    data-aos-delay="100">
+                <div class="col-xs-12 col-sm-6 col-md-6 " data-aos="fade-up" data-aos-delay="100">
                     <div class="client active">
-                        <img src="images/percent productivity.png" alt="Image">
-                        <h3>Augmentation Productivité</h3>
-                        <p>Texte explicant bénéfice.</p>
+                        {{-- <img src="images/percent productivity.png" alt="Image"> --}}
+                        <h3>Efficacité accrue</h3>
+                        <ul>
+                            <li>Augmente d'au moins 150% le temps de ramassage de la quincaillerie</li>
+                            <li>Réduient les coûts de main d'oeuvre</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 " data-aos="fade-up"
-                    data-aos-delay="200">
+                <div class="col-xs-12 col-sm-6 col-md-6 " data-aos="fade-up" data-aos-delay="150">
                     <div class="client">
                         <!-- <img src="./" alt="Image"> -->
-                        <h3>Bénéfices</h3>
-                        <p>Texte explicant bénéfice.</p>
+                        <h3>Diminution erreurs</h3>
+                        <ul>
+                            <li>Augmente significativement la précision de la cueillette</li>
+                            <li>Réduction des plaintes clients</li>
+                            <li>Diminution des coûts de retour</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 " data-aos="fade-up" data-aos-delay="200">
+                    <div class="client">
+                        <!-- <img src="./" alt="Image"> -->
+                        <h3>Facilité d'utilisation</h3>
+                        <ul>
+                            <li>Formation du système en moins de 45 minutes</li>
+                            <li>Système main libre</li>
+                            <li>Système sans papier</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 " data-aos="fade-up" data-aos-delay="250">
+                    <div class="client">
+                        <!-- <img src="./" alt="Image"> -->
+                        <h3>Palier au manque de main d'oeuvre</h3>
+                        <ul>
+                            <li>Problème actuel au Québec</li>
+                            <li>Réduction de la main d'oeuvre qualifié</li>
+                            <li>Faible formation nécessaire</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -204,29 +302,25 @@
                 </div>
             </div>
             <div class="row g-5 justify-content-center">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 " data-aos="fade-up"
-                    data-aos-delay="0">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 " data-aos="fade-up" data-aos-delay="0">
                     <div class="team">
                         <a href="#about-section" class="thumb mb-3"><img src="images/keven-devant-color.png"
                                 alt="Image" class="img-fluid"></a>
                         <h3><a href="#">Kéven Bernier Côté</a></h3>
-                        <span class="mb-4 text-black-50 d-block">Partenaire, spécialiste logistique</span>
-                        <p class="mb-4">Court texte expliquant notre rôle dans la compagnie.</p>
+                        <span class="mb-4 text-black-50 d-block">Spécialiste automatisation</span>
                         <ul class="list-unstyled social">
-                            <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                            <li><a href="https://www.linkedin.com/in/k%C3%A9ven-bernier-c%C3%B4t%C3%A9-a9a776115/"><span class="icon-linkedin"></span></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 " data-aos="fade-up"
-                    data-aos-delay="200">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 " data-aos="fade-up" data-aos-delay="200">
                     <div class="team">
                         <a href="#about-section" class="thumb mb-3"><img src="images/olivier-devant-noir.jpg"
                                 alt="Image" class="img-fluid"></a>
                         <h3><a href="#">Olivier Rheault Gagnon</a></h3>
-                        <span class="mb-4 text-black-50 d-block">Partenaire, spécialiste logiciel</span>
-                        <p class="mb-4">Court texte expliquant notre rôle dans la compagnie.</p>
+                        <span class="mb-4 text-black-50 d-block">Spécialiste logiciel</span>
                         <ul class="list-unstyled social">
-                            <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                            <li><a href="https://www.linkedin.com/in/org18/"><span class="icon-linkedin"></span></a></li>
                         </ul>
                     </div>
                 </div>
