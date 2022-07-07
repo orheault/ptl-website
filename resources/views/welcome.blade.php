@@ -116,32 +116,30 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="step active " data-aos="fade-up" data-aos-delay="100">
                         <span class="number">01</span>
-                        <a href="#" class="glightbox d-block mb-4 thumb">
-                            {{-- <img src="images/lightningpick_pick-to-light_piece_picking.jpg" class="img-fluid" alt="Image" style="opacity: 0.5; width:350px"> --}}
-                        </a>
+                        {{-- <a href="#" class="glightbox d-block mb-4 thumb">
+                            <img src="images/kitting cut.png" class="img-fluid" alt="Image" style="opacity: 0.5; width:350px">
+                        </a> --}}
                         <h3>kitting</h3>
-                        <p class="mb-3"></p>
+                     
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="step " data-aos="fade-up" data-aos-delay="100">
-                        <span class="number">01</span>
-                        <a href="#" class="glightbox d-block mb-4 thumb">
-                            {{-- <img src="images/lightningpick_pick-to-light_piece_picking.jpg" class="img-fluid" alt="Image" style="opacity: 0.5; width:350px"> --}}
-                        </a>
+                        <span class="number">02</span>
+                        {{-- <a href="#" class="glightbox d-block mb-4 thumb">
+                            <img src="images/preparation commande.jpg" class="img-fluid" alt="Image" style="opacity: 0.5; width:350px">
+                        </a> --}}
                         <h3>la préparation de commandes</h3>
-                        <p class="mb-3"></p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="step " data-aos="fade-up" data-aos-delay="100">
-                        <span class="number">01</span>
-                        <a href="#" class="glightbox d-block mb-4 thumb">
-                            {{-- <img src="images/lightningpick_pick-to-light_piece_picking.jpg" class="img-fluid" alt="Image" style="opacity: 0.5; width:350px"> --}}
-                        </a>
+                        <span class="number">03</span>
+                        {{-- <a href="#" class="glightbox d-block mb-4 thumb">
+                           <img src="images/lightningpick_pick-to-light_piece_picking.jpg" class="img-fluid" alt="Image" style="opacity: 0.5; width:350px">
+                        </a> --}}
                         <h3>l’assemblage de produits </h3>
-                        <p class="mb-3"></p>
                     </div>
                 </div>
 
@@ -177,7 +175,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                     <div class="service " data-aos="fade-up" data-aos-delay="100">
                         <a href="#" class="glightbox d-block mb-4 thumb">
-                            <!-- <img src="./" alt="Image" class="img-fluid"> -->
+                            <img src="images/analyse des besoins 2.jpg" alt="Image" class="img-fluid">
                         </a>
                         <div class="">
                             <h3 class="mb-3"><a href="#">Analyse des besoins</a>
@@ -195,7 +193,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                     <div class="service " data-aos="fade-up" data-aos-delay="200">
                         <a class="glightbox d-block mb-4 thumb">
-                            {{-- <img src="images/integration logiciel.jpg" alt="Image" class="img-fluid"> --}}
+                            <img src="images/intégration matériel - cut.jpg" alt="Image" class="img-fluid">
                         </a>
                         <div>
                             <h3 class="mb-3"><a href="#">Intégration Matériel</a></h3>
@@ -206,7 +204,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                     <div class="service " data-aos="fade-up" data-aos-delay="200">
                         <a class="glightbox d-block mb-4 thumb">
-                            {{-- <img src="images/integration logiciel.jpg" alt="Image" class="img-fluid"> --}}
+                           <img src="images/integration logiciel4.jpg" alt="Image" class="img-fluid">
                         </a>
                         <div>
                             <h3 class="mb-3"><a href="#">Intégration logiciel</a></h3>
@@ -217,7 +215,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                     <div class="service " data-aos="fade-up" data-aos-delay="200">
                         <a class="glightbox d-block mb-4 thumb">
-                            {{-- <img src="images/integration logiciel.jpg" alt="Image" class="img-fluid"> --}}
+                            <img src="images/Formation 2.jpg" alt="Image" class="img-fluid">
                         </a>
                         <div>
                             <h3 class="mb-3"><a href="#">Formation</a></h3>
@@ -226,12 +224,12 @@
                     </div>
                 </div>
 
-                <div class="row mb-5">
+                <div class="row mb-5" style="padding-top: 30px;">
                     <div class="col-12" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="heading mb-2 fw-bold">Fonctionnement</h3>
                         Voici le fonctionnement de façon général:
                         <ul>
-                            <li>L'opérateur scanne le code bar de la commande </li>
+                            <li>L'opérateur scanne le code-barres de la commande </li>
                             <li>L'affichage des modules PTL sous chaque pièces de quincailleries nécessaires s'allument
                             </li>
                             <li>Chaque module PTL indique la quantité de pièces à récupérer</li>
@@ -260,7 +258,6 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6 " data-aos="fade-up" data-aos-delay="100">
                     <div class="client active">
-                        {{-- <img src="images/percent productivity.png" alt="Image"> --}}
                         <h3>Efficacité accrue</h3>
                         <ul>
                             <li>Augmente d'au moins 150% le temps de ramassage de la quincaillerie</li>
@@ -270,8 +267,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 " data-aos="fade-up" data-aos-delay="150">
                     <div class="client">
-                        <!-- <img src="./" alt="Image"> -->
-                        <h3>Diminution erreurs</h3>
+                        <h3>Diminution des erreurs</h3>
                         <ul>
                             <li>Augmente significativement la précision de la cueillette</li>
                             <li>Réduction des plaintes clients</li>
@@ -281,7 +277,6 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 " data-aos="fade-up" data-aos-delay="200">
                     <div class="client">
-                        <!-- <img src="./" alt="Image"> -->
                         <h3>Facilité d'utilisation</h3>
                         <ul>
                             <li>Formation du système en moins de 45 minutes</li>
@@ -292,7 +287,6 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 " data-aos="fade-up" data-aos-delay="250">
                     <div class="client">
-                        <!-- <img src="./" alt="Image"> -->
                         <h3>Palier au manque de main d'oeuvre</h3>
                         <ul>
                             <li>Problème actuel au Québec</li>
