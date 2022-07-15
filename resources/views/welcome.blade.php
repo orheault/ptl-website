@@ -90,10 +90,8 @@
                 <div class="col-lg-5 ms-auto">
                     <div class="row">
                         <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
-                            <a href="#" class="thumb mb-3">
-                                <img src="images/lightningpick_pick-to-light_piece_picking.jpg" alt="Image"
-                                    style="opacity: 0.5; width:350px">
-                            </a>
+                            <img src="images/lightningpick_pick-to-light_piece_picking.jpg" alt="Image"
+                                style="opacity: 0.5; width:350px">
                         </div>
                     </div>
                 </div>
@@ -115,35 +113,36 @@
             <div class="row g-5">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="step active " data-aos="fade-up" data-aos-delay="100">
+                        <img src="images/kitting cut.png" class="cas-usage-image img-fluid d-block mb-4 thumb" alt="Image"
+                            style="opacity: 0.5; width: 334px;
+                            height: 223px;">
                         <span class="number">01</span>
-                        {{-- <a href="#" class="glightbox d-block mb-4 thumb">
-                            <img src="images/kitting cut.png" class="img-fluid" alt="Image" style="opacity: 0.5; width:350px">
-                        </a> --}}
                         <h3>kitting</h3>
-                     
+
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="step " data-aos="fade-up" data-aos-delay="100">
+                        <img src="images/preparation commande-cut.jpg" class="cas-usage-image img-fluid d-block mb-4 thumb"
+                            alt="Image" style="opacity: 0.5;width: 334px;
+                            height: 223px;">
                         <span class="number">02</span>
-                        {{-- <a href="#" class="glightbox d-block mb-4 thumb">
-                            <img src="images/preparation commande.jpg" class="img-fluid" alt="Image" style="opacity: 0.5; width:350px">
-                        </a> --}}
                         <h3>la préparation de commandes</h3>
                     </div>
                 </div>
+
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="step " data-aos="fade-up" data-aos-delay="100">
+                        <img src="images/Assemblage de produit.jpg"
+                            class="cas-usage-image img-fluid d-block mb-4 thumb" alt="Image" style="opacity: 0.5;width: 334px;
+                            height: 223px;">
                         <span class="number">03</span>
-                        {{-- <a href="#" class="glightbox d-block mb-4 thumb">
-                           <img src="images/lightningpick_pick-to-light_piece_picking.jpg" class="img-fluid" alt="Image" style="opacity: 0.5; width:350px">
-                        </a> --}}
                         <h3>l’assemblage de produits </h3>
                     </div>
                 </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="0">
                     <h3>Exemple d'industrie</h3>
                     <ul>
                         <li>Meuble</li>
@@ -204,7 +203,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                     <div class="service " data-aos="fade-up" data-aos-delay="200">
                         <a class="glightbox d-block mb-4 thumb">
-                           <img src="images/integration logiciel4.jpg" alt="Image" class="img-fluid">
+                            <img src="images/integration logiciel4.jpg" alt="Image" class="img-fluid">
                         </a>
                         <div>
                             <h3 class="mb-3"><a href="#">Intégration logiciel</a></h3>
@@ -256,6 +255,12 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-12 " data-aos="fade-up" data-aos-delay="100">
+                    <div class="benefice-kpi-box" style="    min-height: 100px;">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6 " data-aos="fade-up" data-aos-delay="100">
                     <div class="client active">
                         <h3>Efficacité accrue</h3>
@@ -298,49 +303,10 @@
             </div>
         </div>
     </div>
-    <div class="section section-6 section bg-light" id="about-section">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="0">
-                    <div class="heading-wrap">
-                        <h2 class="heading">Équipe</h2>
-                    </div>
-                </div>
-                <div class="col-lg-5 ml-auto " data-aos="fade-up" data-aos-delay="100">
-                    <p class="mb-4 desc"><strong class="text-black">L'équipe est composé de ...</strong> bla
-                        bla bla right</p>
-                </div>
-            </div>
-            <div class="row g-5 justify-content-center">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 " data-aos="fade-up" data-aos-delay="0">
-                    <div class="team">
-                        <a href="#about-section" class="thumb mb-3"><img src="images/keven-devant-color.png"
-                                alt="Image" class="img-fluid"></a>
-                        <h3><a href="#">Kéven Bernier Côté</a></h3>
-                        <span class="mb-4 text-black-50 d-block">Spécialiste automatisation</span>
-                        <ul class="list-unstyled social">
-                            <li><a href="https://www.linkedin.com/in/k%C3%A9ven-bernier-c%C3%B4t%C3%A9-a9a776115/"><span
-                                        class="icon-linkedin"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 " data-aos="fade-up" data-aos-delay="200">
-                    <div class="team">
-                        <a href="#about-section" class="thumb mb-3"><img src="images/olivier-devant-noir.jpg"
-                                alt="Image" class="img-fluid"></a>
-                        <h3><a href="#">Olivier Rheault Gagnon</a></h3>
-                        <span class="mb-4 text-black-50 d-block">Spécialiste logiciel</span>
-                        <ul class="list-unstyled social">
-                            <li><a href="https://www.linkedin.com/in/org18/"><span class="icon-linkedin"></span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     @include('contact_section')
+
+    @include('team_section')
 
     <div class="site-footer">
         <div class="inner dark">
