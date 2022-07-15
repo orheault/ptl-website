@@ -55,9 +55,8 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 ">
                     {{-- <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 " data-aos="fade-up" data-aos-delay="0"> --}}
                         <div class="team">
-                            <a href="#about-section" class="thumb mb-3"><img src="images/keven-tete.png"
-                                    alt="Image" class="img-fluid" style="    max-width: 200px;"></a>
-                            <h3><a href="#">Kéven Bernier Côté</a></h3>
+                            <img src="images/keven-tete.png" alt="Image" class="img-fluid thumb mb-3" style="    max-width: 200px;">
+                            <h3><span class="title-item">Kéven Bernier Côté</span></h3>
                             <span class="mb-4 text-black-50 d-block">Spécialiste automatisation</span>
                             <ul class="list-unstyled social">
                                 <li><a href="https://www.linkedin.com/in/k%C3%A9ven-bernier-c%C3%B4t%C3%A9-a9a776115/"><span
@@ -69,9 +68,8 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 ">
                     {{-- <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 " data-aos="fade-up" data-aos-delay="200"> --}}
                         <div class="team">
-                            <a href="#about-section" class="thumb mb-3"><img src="images/olivier-tete.png" style="    max-width: 200px;"
-                                    alt="Image" class="img-fluid"></a>
-                            <h3><a href="#">Olivier Rheault Gagnon</a></h3>
+                           <img src="images/olivier-tete.png" style="    max-width: 200px;" alt="Image" class="img-fluid thumb mb-3">
+                           <h3><span class="title-item">Olivier Rheault Gagnon</span></h3>
                             <span class="mb-4 text-black-50 d-block">Spécialiste logiciel</span>
                             <ul class="list-unstyled social">
                                 <li><a href="https://www.linkedin.com/in/org18/"><span class="icon-linkedin"></span></a>
