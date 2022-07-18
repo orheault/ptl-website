@@ -5346,6 +5346,9 @@ body[data-aos-easing="ease-out"] [data-aos] {
   width: 334px;
   height: 223px;
 }
+.image-solution{
+    opacity: 0.5;
+}
 .title-item {
   text-decoration: underline;
   color: #78d54b;

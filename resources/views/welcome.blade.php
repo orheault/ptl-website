@@ -173,7 +173,7 @@
             <div class="row justify-content-center g-5">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                     <div class="service " data-aos="fade-up" data-aos-delay="100">
-                            <img src="images/analyse des besoins 2.jpg" alt="Image" class="img-fluid d-block mb-4 thumb">
+                            <img src="images/analyse des besoins 2.jpg" alt="Image" class="img-fluid d-block mb-4 thumb image-solution">
                         <div class="">
                             <h3 class="mb-3"><span class="title-item">Analyse des besoins</span>
                             </h3>
@@ -190,7 +190,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                     <div class="service " data-aos="fade-up" data-aos-delay="200">
                         <a class="d-block mb-4 thumb">
-                            <img src="images/intégration matériel - cut.jpg" alt="Image" class="img-fluid">
+                            <img src="images/intégration matériel - cut.jpg" alt="Image" class="img-fluid image-solution">
                         </a>
                         <div>
                             <h3 class="mb-3"><span class="title-item">Intégration Matériel</span></h3>
@@ -201,7 +201,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                     <div class="service " data-aos="fade-up" data-aos-delay="200">
                         <a class="d-block mb-4 thumb">
-                            <img src="images/integration logiciel4.jpg" alt="Image" class="img-fluid">
+                            <img src="images/integration logiciel4.jpg" alt="Image" class="img-fluid image-solution">
                         </a>
                         <div>
                             <h3 class="mb-3"><span class="title-item">Intégration logiciel</span></h3>
@@ -212,7 +212,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                     <div class="service " data-aos="fade-up" data-aos-delay="200">
                         <a class="d-block mb-4 thumb">
-                            <img src="images/Formation 2.jpg" alt="Image" class="img-fluid">
+                            <img src="images/Formation 2.jpg" alt="Image" class="img-fluid image-solution">
                         </a>
                         <div>
                             <h3 class="mb-3"><span class="title-item">Formation</span></h3>
