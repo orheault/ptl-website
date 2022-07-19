@@ -91,7 +91,7 @@
                     <div class="row">
                         <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
                             <img src="images/lightningpick_pick-to-light_piece_picking.jpg" alt="Image"
-                                style="opacity: 0.5; width:350px">
+                                style="width:350px">
                         </div>
                     </div>
                 </div>
@@ -110,9 +110,8 @@
             <div class="row g-5">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="step active " data-aos="fade-up" data-aos-delay="100">
-                        <img src="images/kitting cut.png" class="cas-usage-image img-fluid d-block mb-4 thumb" alt="Image"
-                            style="opacity: 0.5; width: 334px;
-                            height: 223px;">
+                        <img src="images/kitting cut.png" class="cas-usage-image img-fluid d-block mb-4 thumb"
+                            alt="Image">
                         <span class="number">01</span>
                         <h3>kitting</h3>
 
@@ -121,9 +120,8 @@
 
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="step " data-aos="fade-up" data-aos-delay="100">
-                        <img src="images/preparation commande-cut.jpg" class="cas-usage-image img-fluid d-block mb-4 thumb"
-                            alt="Image" style="opacity: 0.5;width: 334px;
-                            height: 223px;">
+                        <img src="images/preparation commande-cut.jpg"
+                            class="cas-usage-image img-fluid d-block mb-4 thumb" alt="Image">
                         <span class="number">02</span>
                         <h3>la préparation de commandes</h3>
                     </div>
@@ -132,8 +130,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div class="step " data-aos="fade-up" data-aos-delay="100">
                         <img src="images/Assemblage de produit.jpg"
-                            class="cas-usage-image img-fluid d-block mb-4 thumb" alt="Image" style="opacity: 0.5;width: 334px;
-                            height: 223px;">
+                            class="cas-usage-image img-fluid d-block mb-4 thumb" alt="Image">
                         <span class="number">03</span>
                         <h3>l’assemblage de produits </h3>
                     </div>
@@ -170,7 +167,8 @@
             <div class="row justify-content-center g-5">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                     <div class="service " data-aos="fade-up" data-aos-delay="100">
-                            <img src="images/analyse des besoins 2.jpg" alt="Image" class="img-fluid d-block mb-4 thumb image-solution">
+                        <img src="images/analyse des besoins 2.jpg" alt="Image"
+                            class="img-fluid d-block mb-4 thumb image-solution">
                         <div class="">
                             <h3 class="mb-3"><span class="title-item">Analyse des besoins</span>
                             </h3>
@@ -187,7 +185,8 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                     <div class="service " data-aos="fade-up" data-aos-delay="200">
                         <a class="d-block mb-4 thumb">
-                            <img src="images/intégration matériel - cut.jpg" alt="Image" class="img-fluid image-solution">
+                            <img src="images/intégration matériel - cut.jpg" alt="Image"
+                                class="img-fluid image-solution">
                         </a>
                         <div>
                             <h3 class="mb-3"><span class="title-item">Intégration Matériel</span></h3>
@@ -198,7 +197,8 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
                     <div class="service " data-aos="fade-up" data-aos-delay="200">
                         <a class="d-block mb-4 thumb">
-                            <img src="images/integration logiciel4.jpg" alt="Image" class="img-fluid image-solution">
+                            <img src="images/integration logiciel4.jpg" alt="Image"
+                                class="img-fluid image-solution">
                         </a>
                         <div>
                             <h3 class="mb-3"><span class="title-item">Intégration logiciel</span></h3>

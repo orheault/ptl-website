@@ -5343,15 +5343,16 @@ body[data-aos-easing="ease-out"] [data-aos] {
     transition-property: transform;
 }
 .cas-usage-image {
-  width: 334px;
-  height: 223px;
+    opacity: 0.7;
+    width: 334px;
+    height: 223px;
 }
-.image-solution{
-    opacity: 0.5;
+.image-solution {
+    opacity: 0.7;
 }
 .title-item {
-  text-decoration: underline;
-  color: #78d54b;
+    text-decoration: underline;
+    color: #78d54b;
 }
 .glightbox-container {
     width: 100%;
