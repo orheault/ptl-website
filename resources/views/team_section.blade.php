@@ -45,11 +45,13 @@
     <div class="section section-6 section bg-light" id="about-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 heading-wrap" data-aos="fade-up" data-aos-delay="0">
+                <div class="col-lg-5 heading-wrap" data-aos="fade-up" data-aos-delay="0">
                     <h2 class="heading">L'équipe</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus, nunc eget ultricies
-                        tristique, nisl massa lacinia sapien, sed varius diam odio eu tortor. Morbi facilisis elit
+                        L’équipe PTL system constitue sa force d’entreprise avec sa combinaison d'expérience en automatisation et logiciel. PTL system est fière de contribuer aux enjeux de manque de personnel et d’augmentation de la productivité dans votre entreprise.
+                    </p>
+                    <p>
+                        Nous opérons dans les régions suivante: centre du Québec,  l’Estrie et la Montérégie.
                     </p>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 ">
