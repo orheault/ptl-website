@@ -106,9 +106,6 @@
                         <h2 class="heading ">Cas D'usage</h2>
                     </div>
                 </div>
-                <div class="col-lg-5 ml-auto " data-aos="fade-up" data-aos-delay="100">
-                    <p class="mb-4">Ce système se retrouve dans des processus variés</p>
-                </div>
             </div>
             <div class="row g-5">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
@@ -247,9 +244,6 @@
                     <div class="heading-wrap">
                         <h2 class="heading text-white">Bénéfices</h2>
                     </div>
-                </div>
-                <div class="col-lg-5 ml-auto " data-aos="fade-up" data-aos-delay="100">
-                    <p class="mb-4 desc"> Retour sur investissement en moins d'un an</p>
                 </div>
             </div>
             <div class="row">
