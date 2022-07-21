@@ -114,7 +114,6 @@
                             alt="Image">
                         <span class="number">01</span>
                         <h3>kitting</h3>
-
                     </div>
                 </div>
 
@@ -243,12 +242,6 @@
                 <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="0">
                     <div class="heading-wrap">
                         <h2 class="heading text-white">Bénéfices</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 " data-aos="fade-up" data-aos-delay="100">
-                    <div class="benefice-kpi-box" style="    min-height: 100px;">
                     </div>
                 </div>
             </div>
